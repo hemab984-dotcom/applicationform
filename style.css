@@ -1,0 +1,60 @@
+body{
+    background-color:#f6f6fa;
+    font-family:Verdana;
+    text-align:center;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin:30px  auto;
+    padding:20px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+    
+   
+
+ 
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.form-group label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea{
+    border:1px solid #777;
+    border-radius: 2px;
+    font-family:inherit;
+    padding:10px;
+    
+    width:95%
+
+    
+}
+.form-group input[type="radio"],
+.form-group input[type="checkbox"]{
+    
+    width:auto;
+}
+.skills{
+    padding-bottom: 10px;
+}
+button{
+    display: block;
+    text-align: center;
+    background-color: rgb(54, 33, 190);
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #777;
+    border-radius: 2px;
+    padding: 10px;
+
+    
+}
